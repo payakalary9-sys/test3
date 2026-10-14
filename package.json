@@ -1,0 +1,11 @@
+{
+  "name": "sorag",
+  "version": "3.0.0",
+  "description": "سۆراغ - شتە ونبووەکانی کوردستان (Netlify)",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "netlify dev", "import": "node scripts/import-json.mjs" },
+  "dependencies": { "@libsql/client": "^0.14.0", "@netlify/blobs": "^8.1.0" },
+  "devDependencies": { "netlify-cli": "^17.0.0" },
+  "engines": { "node": ">=20" }
+}

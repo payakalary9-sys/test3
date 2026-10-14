@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سۆراغ – شتە ونبووەکانی کوردستان</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <div class="top">
+    <div class="brand"><span id="sun"></span><div><h1>سۆراغ</h1><p>شتە ونبووەکانی کوردستان لێرە دەدۆزرێنەوە</p></div></div>
+    <nav id="nav"></nav>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="kilim"></div>
+<main>
+  <section id="adminBox" class="card" hidden></section>
+  <section id="formBox" class="card"></section>
+  <div class="bar">
+    <input id="q" placeholder="🔎 بگەڕێ...">
+    <select id="fc"></select>
+    <select id="f"><option value="">هەموو</option><option value="lost">ونبوو</option><option value="found">دۆزراوە</option></select>
+  </div>
+  <div id="list"></div>
+</main>
+<footer> </footer>
+<div id="modal" class="modal" hidden><div class="card" id="mbox"></div></div>
+<div id="msg"></div>
+<script src="/app.js"></script>
+</body>
+</html>
